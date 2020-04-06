@@ -7,3 +7,5 @@ SRC_URI = "git://mod.lge.com/hub/yocto/cpp-project-qt5.git;protocol=http;tag=${P
 S = "${WORKDIR}/git"
 
 inherit qmake5
+
+DEPENDS = "qtbase"
