@@ -7,3 +7,5 @@ SRC_URI = "git://mod.lge.com/hub/yocto/stringutils.git;protocol=http;tag=${PV};n
 S = "${WORKDIR}/git"
 
 inherit cmake
+
+ALLOW_EMPTY_${PN} = "1"
