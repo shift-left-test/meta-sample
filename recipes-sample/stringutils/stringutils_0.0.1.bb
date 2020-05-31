@@ -7,7 +7,9 @@ SECTION = "devel"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=e5b34fb28d5adc2108f3317d97f59937"
 
-SRC_URI = "git://mod.lge.com/hub/yocto/sample/stringutils.git;protocol=http;tag=${PV};nobranch=1"
+SRC_URI = "git://mod.lge.com/hub/yocto/sample/stringutils.git;protocol=http;nobranch=1"
+
+SRCREV = "8f47bb557944509df7417c8a0ccb6e437e9487d6"
 
 S = "${WORKDIR}/git"
 

@@ -12,7 +12,9 @@ DEPENDS += "\
     stringutils \
 "
 
-SRC_URI = "git://mod.lge.com/hub/yocto/sample/sqlite3logger.git;protocol=http;tag=${PV};nobranch=1"
+SRC_URI = "git://mod.lge.com/hub/yocto/sample/sqlite3logger.git;protocol=http;nobranch=1"
+
+SRCREV = "61001d38fdae3979a659e741d6af04d065effa7d"
 
 S = "${WORKDIR}/git"
 
