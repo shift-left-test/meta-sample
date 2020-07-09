@@ -14,7 +14,7 @@ DEPENDS += "\
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/sqlite3logger.git;protocol=http;nobranch=1"
 
-SRCREV = "61001d38fdae3979a659e741d6af04d065effa7d"
+SRCREV = "367c305920271bc77a0aaa58857f62a3872a7b81"
 
 S = "${WORKDIR}/git"
 

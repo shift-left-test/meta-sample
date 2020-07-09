@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=dcada7ad9f632dba360934666016c666"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/cmake-project.git;protocol=http;nobranch=1"
 
-SRCREV = "b646a3c49f26a97e680ee3147a6e146e251bd9a4"
+SRCREV = "1579cd9e0db8a63ffaeb40a25cf17031787d4ea8"
 
 S = "${WORKDIR}/git"
 

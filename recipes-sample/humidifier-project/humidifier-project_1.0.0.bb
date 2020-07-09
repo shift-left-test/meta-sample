@@ -11,7 +11,7 @@ DEPENDS += "fff"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/humidifier-project.git;protocol=http;nobranch=1"
 
-SRCREV = "614c7f2840069cd579e6e98d26b5ce73eefbbf5c"
+SRCREV = "8df2afd15b666db337b590d42395533bed775c88"
 
 S = "${WORKDIR}/git"
 
