@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=e5b34fb28d5adc2108f3317d97f59937"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/stringutils.git;protocol=http;nobranch=1"
 
-SRCREV = "a851f80c16b1385467d2127d4b51fb08845a3af4"
+SRCREV = "cc501520ae7229d40d195c5215292a72d73a74a9"
 
 S = "${WORKDIR}/git"
 
