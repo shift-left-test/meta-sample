@@ -11,7 +11,7 @@ DEPENDS += "sqlite3"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/SQLite3Wrapper.git;protocol=http;nobranch=1"
 
-SRCREV = "ac8a36167de8c1088f7fb58f4ac0a6b1d21dc51c"
+SRCREV = "b69f8cb1a3b67edea53ae08a91b4b09210de535b"
 
 S = "${WORKDIR}/git"
 
