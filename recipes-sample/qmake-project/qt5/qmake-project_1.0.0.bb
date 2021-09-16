@@ -11,7 +11,7 @@ DEPENDS += "qtbase"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/qmake-project.git;protocol=http;nobranch=1"
 
-SRCREV = "7da677468200d7ad034a1c697cfd0cb9cd522f3f"
+SRCREV = "2c95430312c742c24621d34b7e99f43adeaea500"
 
 S = "${WORKDIR}/git"
 
