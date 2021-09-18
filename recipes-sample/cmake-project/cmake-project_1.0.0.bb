@@ -1,5 +1,5 @@
 SUMMARY = "A cmake based sample project"
-DESCRIPTION = "A camke based sample project for meta-shift project"
+DESCRIPTION = "A cmake based sample project for meta-shift project"
 AUTHOR = "Sung Gon Kim"
 HOMEPAGE = "http://mod.lge.com/hub/yocto/sample/cmake-project"
 BUGTRACKER = "http://mod.lge.com/hub/yocto/sample/cmake-project/issues"
