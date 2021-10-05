@@ -14,3 +14,5 @@ SRCREV = "3bd5e909a74601c9534fc0238e55a561180c8a21"
 S = "${WORKDIR}/git"
 
 inherit autotools
+
+BBCLASSEXTEND = "native nativesdk"

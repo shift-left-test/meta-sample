@@ -16,3 +16,5 @@ SRCREV = "2c95430312c742c24621d34b7e99f43adeaea500"
 S = "${WORKDIR}/git"
 
 inherit qmake5
+
+BBCLASSEXTEND = "native nativesdk"
