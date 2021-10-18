@@ -4,5 +4,6 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${BPN}:"
 # Drop this once our build host has a newer version of g++.
 SRC_URI_append_class-native = " \
     file://0001-Fix-compile-error-with-g-7.5.0.patch \
+    file://0002-Fix-compile-error-with-g-7.5.0.patch \
 "
 
