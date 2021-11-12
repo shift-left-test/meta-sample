@@ -5,13 +5,13 @@ HOMEPAGE = "http://mod.lge.com/hub/yocto/sample/qmake-npe-project"
 BUGTRACKER = "http://mod.lge.com/hub/yocto/sample/qmake-npe-project/issues"
 SECTION = "misc"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=e5b34fb28d5adc2108f3317d97f59937"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=196153602d7e4313ff44195d6c73279a"
 
 DEPENDS += "qtbase"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/qmake-npe-project.git;protocol=http;nobranch=1"
 
-SRCREV = "7c9fd9f53f4a607048d8a31112bfccc792e44563"
+SRCREV = "7c4598da57b597ecba73aed782156e3c1907d7f6"
 
 S = "${WORKDIR}/git"
 

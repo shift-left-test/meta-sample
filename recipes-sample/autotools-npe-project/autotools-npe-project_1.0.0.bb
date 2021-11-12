@@ -5,11 +5,11 @@ HOMEPAGE = "http://mod.lge.com/hub/yocto/sample/autotools-npe-project"
 BUGTRACKER = "http://mod.lge.com/hub/yocto/sample/autotools-npe-project/issues"
 SECTION = "misc"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=e5b34fb28d5adc2108f3317d97f59937"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=196153602d7e4313ff44195d6c73279a"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/autotools-npe-project.git;protocol=http;nobranch=1"
 
-SRCREV = "be7d7498122d709400cfc240c219ccb3713272ba"
+SRCREV = "dd073659b409b7a8751cdd48bdaf8d6068936b8f"
 
 S = "${WORKDIR}/git"
 

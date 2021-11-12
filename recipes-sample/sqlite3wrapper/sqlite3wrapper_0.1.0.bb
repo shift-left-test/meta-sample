@@ -5,13 +5,13 @@ HOMEPAGE = "http://mod.lge.com/hub/yocto/sample/SQLite3Wrapper"
 BUGTRACKER = "http://mod.lge.com/hub/yocto/sample/SQLite3Wrapper/issues"
 SECTION = "devel"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=68afeac0415f7ffea472ec34ec9d20c7"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=df949e8c96ecf1483905048fb77276b5"
 
 DEPENDS += "sqlite3"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/SQLite3Wrapper.git;protocol=http;nobranch=1"
 
-SRCREV = "b69f8cb1a3b67edea53ae08a91b4b09210de535b"
+SRCREV = "18a19b3788fae2d8b7edd86dee1988f1dbd1c507"
 
 S = "${WORKDIR}/git"
 

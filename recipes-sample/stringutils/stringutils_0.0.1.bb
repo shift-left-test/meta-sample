@@ -5,11 +5,11 @@ HOMEPAGE = "http://mod.lge.com/hub/yocto/sample/stringutils"
 BUGTRACKER = "http://mod.lge.com/hub/yocto/sample/stringutils/issues"
 SECTION = "devel"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=e5b34fb28d5adc2108f3317d97f59937"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=482f1f569fef1eb92a4f68bbddae8724"
 
 SRC_URI = "git://mod.lge.com/hub/yocto/sample/stringutils.git;protocol=http;nobranch=1"
 
-SRCREV = "cc501520ae7229d40d195c5215292a72d73a74a9"
+SRCREV = "1d4b022d4d910247b364a6699dd8f3d82cb9420b"
 
 S = "${WORKDIR}/git"
 
