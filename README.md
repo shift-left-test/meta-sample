@@ -12,12 +12,6 @@ List of projects
 * autotools-project
 
 
-Documentation
--------------
-
-Please refer to the [wiki link](http://mod.lge.com/hub/yocto/meta-shift/-/wikis/home) for more useful information.
-
-
 Licenses
 --------
 
