@@ -15,6 +15,6 @@ S = "${WORKDIR}/git"
 
 inherit cmake
 
-ALLOW_EMPTY_${PN} = "1"
+ALLOW_EMPTY:${PN} = "1"
 
 BBCLASSEXTEND = "native nativesdk"
