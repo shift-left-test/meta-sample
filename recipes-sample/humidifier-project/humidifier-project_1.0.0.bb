@@ -7,7 +7,10 @@ SECTION = "misc"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=f1b25eb8076e8b7bebc3cb0692513bee"
 
-DEPENDS += "fff"
+DEPENDS += "\
+    fff \
+    sqlite3wrapper \
+"
 
 SRC_URI = "git://github.com/shift-left-test/humidifier-project.git;protocol=https;nobranch=1"
 
