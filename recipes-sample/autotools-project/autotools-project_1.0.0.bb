@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=482f1f569fef1eb92a4f68bbddae8724"
 
 SRC_URI = "git://github.com/shift-left-test/autotools-project.git;protocol=https;nobranch=1"
 
-SRCREV = "62b2c368ae681e6deeb566b364dbdba8e7d4b7ad"
+SRCREV = "935c4001fb175336f3f945201be4834f60ef82a9"
 
 S = "${WORKDIR}/git"
 
