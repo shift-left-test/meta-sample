@@ -11,7 +11,7 @@ DEPENDS += "qtbase"
 
 SRC_URI = "git://github.com/shift-left-test/qmake-project.git;protocol=https;nobranch=1"
 
-SRCREV = "1745d660bdb88231d23fa8f4834e39576bb01d61"
+SRCREV = "2bde968fffb21229b84c0de32270d34410e70e9d"
 
 S = "${WORKDIR}/git"
 
