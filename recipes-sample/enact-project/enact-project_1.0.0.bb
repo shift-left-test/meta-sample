@@ -11,7 +11,7 @@ DEPENDS += "nodejs-native"
 
 SRC_URI = "git://github.com/shift-left-test/enact-project.git;protocol=https;nobranch=1"
 
-SRCREV = "e8757cbd73e6978468a36eca54b41b59dd5ef7fb"
+SRCREV = "24f22504749538e88a526f87b6388b6120db3045"
 
 S = "${WORKDIR}/git"
 
