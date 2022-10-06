@@ -31,11 +31,11 @@ def get_nodejs_arch(d):
 
     return target_arch
 
-NPM_BIN = "${STAGING_BINDIR_NATIVE}/npm"
-NPM_CACHE_DIR = "${WORKDIR}/npm_cache"
-NPM_REGISTRY = "https://registry.npmjs.org/"
-NPM_ARCH = "${@get_nodejs_arch(d)}"
-NPM_INSTALL_FLAGS = "--arch=${NPM_ARCH} --target_arch=${NPM_ARCH} --only=production --without-ssl --insecure --no-optional --verbose"
+NPM_BIN ?= "${STAGING_BINDIR_NATIVE}/npm"
+NPM_CACHE_DIR ?= "${WORKDIR}/npm_cache"
+NPM_REGISTRY ?= "https://registry.npmjs.org/"
+NPM_ARCH ?= "${@get_nodejs_arch(d)}"
+NPM_INSTALL_FLAGS ?= "--arch=${NPM_ARCH} --target_arch=${NPM_ARCH} --only=production --without-ssl --insecure --no-optional --verbose"
 
 do_configure() {
     :
