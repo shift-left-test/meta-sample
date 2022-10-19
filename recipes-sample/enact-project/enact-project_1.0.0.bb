@@ -15,6 +15,8 @@ SRCREV = "f505c0f33db995164ef70f281ac0242ced066276"
 
 S = "${WORKDIR}/git"
 
+BBCLASSEXTEND = "native nativesdk"
+
 def get_nodejs_arch(d):
     target_arch = d.getVar('TRANSLATED_TARGET_ARCH', True)
 
