@@ -56,6 +56,7 @@ do_compile() {
     ${NPM_BIN} config set scripts-prepend-node-path true
     ${NPM_BIN} config set dev false
     ${NPM_BIN} config set strict-ssl false
+    ${NPM_BIN} config set audit false
     ${NPM_BIN} config set registry ${NPM_REGISTRY}
 
     npm install ${NPM_INSTALL_FLAGS}
