@@ -45,6 +45,7 @@ do_configure() {
 
 do_compile() {
     export HOME="${WORKDIR}"
+    export NPM_ENV=production
 
     ${NPM_BIN} set cache ${NPM_CACHE_DIR}
     ${NPM_BIN} cache clear --force
@@ -53,8 +54,6 @@ do_compile() {
 
     ${NPM_BIN} config set prefer-offline true
     ${NPM_BIN} config set package-lock true
-    ${NPM_BIN} config set scripts-prepend-node-path true
-    ${NPM_BIN} config set dev false
     ${NPM_BIN} config set strict-ssl false
     ${NPM_BIN} config set audit false
     ${NPM_BIN} config set registry ${NPM_REGISTRY}
