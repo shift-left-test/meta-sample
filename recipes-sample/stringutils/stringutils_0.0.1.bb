@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=482f1f569fef1eb92a4f68bbddae8724"
 
 SRC_URI = "git://github.com/shift-left-test/stringutils.git;protocol=https;nobranch=1"
 
-SRCREV = "1d4b022d4d910247b364a6699dd8f3d82cb9420b"
+SRCREV = "470132058ff6cff0640da205683d3d2faa377217"
 
 S = "${WORKDIR}/git"
 

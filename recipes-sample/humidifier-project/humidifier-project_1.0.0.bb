@@ -14,7 +14,7 @@ DEPENDS += "\
 
 SRC_URI = "git://github.com/shift-left-test/humidifier-project.git;protocol=https;nobranch=1"
 
-SRCREV = "ab2f23db3a4045571cb21b171c76507f027be430"
+SRCREV = "7c83666d7e6fe15be22ec315b3b2ba9f75bfe14b"
 
 S = "${WORKDIR}/git"
 

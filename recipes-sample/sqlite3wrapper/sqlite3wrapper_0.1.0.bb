@@ -11,7 +11,7 @@ DEPENDS += "sqlite3"
 
 SRC_URI = "git://github.com/shift-left-test/SQLite3Wrapper.git;protocol=https;nobranch=1"
 
-SRCREV = "952b203e919627bb3b998ece1368945cc1228183"
+SRCREV = "470132058ff6cff0640da205683d3d2faa377217"
 
 S = "${WORKDIR}/git"
 
