@@ -7,9 +7,13 @@ A metadata-layer which consists of the sample projects for meta-shift project.
 List of projects
 ----------------
 
-* cmake-project
-* qmake5-project
 * autotools-project
+* cmake-project
+* enact-project
+* humidifier-project
+* qmake-project
+* sqlite3wrapper
+* stringutils
 
 
 Licenses
