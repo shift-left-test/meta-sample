@@ -13,8 +13,6 @@ SRC_URI = "git://github.com/shift-left-test/enact-project.git;protocol=https;nob
 
 SRCREV = "f505c0f33db995164ef70f281ac0242ced066276"
 
-S = "${WORKDIR}/git"
-
 BBCLASSEXTEND = "native nativesdk"
 
 def get_nodejs_arch(d):

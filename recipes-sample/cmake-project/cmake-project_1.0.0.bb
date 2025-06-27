@@ -11,8 +11,6 @@ SRC_URI = "git://github.com/shift-left-test/cmake-project.git;protocol=https;nob
 
 SRCREV = "7c83666d7e6fe15be22ec315b3b2ba9f75bfe14b"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 BBCLASSEXTEND = "native nativesdk"

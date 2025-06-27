@@ -13,8 +13,6 @@ SRC_URI = "git://github.com/shift-left-test/qmake-project.git;protocol=https;nob
 
 SRCREV = "2bde968fffb21229b84c0de32270d34410e70e9d"
 
-S = "${WORKDIR}/git"
-
 inherit qmake5
 
 BBCLASSEXTEND = "native nativesdk"

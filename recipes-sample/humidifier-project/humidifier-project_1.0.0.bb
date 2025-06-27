@@ -16,8 +16,6 @@ SRC_URI = "git://github.com/shift-left-test/humidifier-project.git;protocol=http
 
 SRCREV = "17d10661b2f067f39e7b7b8cf491c2d154b4ec98"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 BBCLASSEXTEND = "native nativesdk"

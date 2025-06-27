@@ -11,8 +11,6 @@ SRC_URI = "git://github.com/shift-left-test/stringutils.git;protocol=https;nobra
 
 SRCREV = "470132058ff6cff0640da205683d3d2faa377217"
 
-S = "${WORKDIR}/git"
-
 inherit cmake
 
 ALLOW_EMPTY_${PN} = "1"

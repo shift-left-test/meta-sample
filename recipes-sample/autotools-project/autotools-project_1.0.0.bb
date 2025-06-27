@@ -11,8 +11,6 @@ SRC_URI = "git://github.com/shift-left-test/autotools-project.git;protocol=https
 
 SRCREV = "935c4001fb175336f3f945201be4834f60ef82a9"
 
-S = "${WORKDIR}/git"
-
 inherit autotools
 
 BBCLASSEXTEND = "native nativesdk"
