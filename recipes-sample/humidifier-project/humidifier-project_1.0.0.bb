@@ -14,7 +14,7 @@ DEPENDS += "\
 
 SRC_URI = "git://github.com/shift-left-test/humidifier-project.git;protocol=https;nobranch=1"
 
-SRCREV = "17d10661b2f067f39e7b7b8cf491c2d154b4ec98"
+SRCREV = "23304e8a8d3ce0df92b189f15e4ae7b565f11c8e"
 
 inherit cmake
 

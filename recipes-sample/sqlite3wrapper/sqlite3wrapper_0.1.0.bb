@@ -11,7 +11,7 @@ DEPENDS += "sqlite3"
 
 SRC_URI = "git://github.com/shift-left-test/SQLite3Wrapper.git;protocol=https;nobranch=1"
 
-SRCREV = "470132058ff6cff0640da205683d3d2faa377217"
+SRCREV = "8e31c7eb8ea2c90f00fe032c52792838917620e6"
 
 inherit cmake
 
